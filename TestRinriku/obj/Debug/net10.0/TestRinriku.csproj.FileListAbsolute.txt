@@ -31,3 +31,4 @@ D:\csharp\TestRinriku\TestRinriku\obj\Debug\net10.0\refint\TestRinriku.dll
 D:\csharp\TestRinriku\TestRinriku\obj\Debug\net10.0\TestRinriku.pdb
 D:\csharp\TestRinriku\TestRinriku\obj\Debug\net10.0\TestRinriku.genruntimeconfig.cache
 D:\csharp\TestRinriku\TestRinriku\obj\Debug\net10.0\ref\TestRinriku.dll
+D:\csharp\TestRinriku\Testrinriku\obj\Debug\net10.0\TestRinriku.sourcelink.json

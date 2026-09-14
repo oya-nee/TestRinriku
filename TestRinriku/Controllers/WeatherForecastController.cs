@@ -3,22 +3,31 @@ using Microsoft.AspNetCore.Mvc;
 namespace TestRinriku.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    public class kakController : ControllerBase
+    [Route("api/[controller]")]
+    public class NeneController : ControllerBase
     {
-        private static readonly string[] Summaries =
-        [
-            "หมูหมีกากๆกังๆ","หมูพีเอ๋อมะแหวว","แหววมะเอ๋อ"
-        ];
-
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpGet("boyfriend")]
+        public Person boyfriend()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            Person mume = new Person();
+            //mume.Name = "MheePooh";
+            //mume.Firstname = "Sirithep";
+            //mume.Lastname = "Pukim";
+
+            return mume;
+        }
+
+        [HttpGet("sister")]
+        public Person sister()
+        {
+            return new Person
             {
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+                Name = "Neen",
+                Firstname = "Neenny",
+                Lastname = "Moo"
+
+            };
+
         }
     }
 }

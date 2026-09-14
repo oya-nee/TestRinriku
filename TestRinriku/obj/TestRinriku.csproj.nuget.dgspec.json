@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\csharp\\TestRinriku\\TestRinriku\\TestRinriku.csproj": {}
+    "D:\\csharp\\TestRinriku\\Testrinriku\\TestRinriku.csproj": {}
   },
   "projects": {
-    "D:\\csharp\\TestRinriku\\TestRinriku\\TestRinriku.csproj": {
+    "D:\\csharp\\TestRinriku\\Testrinriku\\TestRinriku.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\csharp\\TestRinriku\\TestRinriku\\TestRinriku.csproj",
+        "projectUniqueName": "D:\\csharp\\TestRinriku\\Testrinriku\\TestRinriku.csproj",
         "projectName": "TestRinriku",
-        "projectPath": "D:\\csharp\\TestRinriku\\TestRinriku\\TestRinriku.csproj",
+        "projectPath": "D:\\csharp\\TestRinriku\\Testrinriku\\TestRinriku.csproj",
         "packagesPath": "C:\\Users\\JARIYA\\.nuget\\packages\\",
-        "outputPath": "D:\\csharp\\TestRinriku\\TestRinriku\\obj\\",
+        "outputPath": "D:\\csharp\\TestRinriku\\Testrinriku\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
