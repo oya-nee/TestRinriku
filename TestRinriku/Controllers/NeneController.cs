@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using TestRinriku.Models;
 
 namespace TestRinriku.Controllers
 {
@@ -6,28 +7,15 @@ namespace TestRinriku.Controllers
     [Route("api/[controller]")]
     public class NeneController : ControllerBase
     {
-        [HttpGet("boyfriend")]
-        public Person boyfriend()
-        {
-            Person mume = new Person();
-            //mume.Name = "MheePooh";
-            //mume.Firstname = "Sirithep";
-            //mume.Lastname = "Pukim";
+       Person nene = new Person{ Firstname = "Chanakarn" };
 
-            return mume;
+       string functionA()
+        {   
+
+            string firstname = nene.Firstname;
+            string? name = nene.Name;
+            return name ?? "Sorry I got null";
         }
-
-        [HttpGet("sister")]
-        public Person sister()
-        {
-            return new Person
-            {
-                Name = "Neen",
-                Firstname = "Neenny",
-                Lastname = "Moo"
-
-            };
-
-        }
+        
     }
 }
